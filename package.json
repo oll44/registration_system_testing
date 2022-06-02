@@ -1,0 +1,45 @@
+{
+  "name": "registration_system_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": " nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oll44/registration_system_testing.git"
+  },
+  "author": "Wayne R.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oll44/registration_system_testing/issues"
+  },
+  "homepage": "https://github.com/oll44/registration_system_testing#readme",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/plugin-proposal-class-properties": "^7.17.12",
+    "@babel/plugin-transform-runtime": "^7.18.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/register": "^7.17.7",
+    "babel-istanbul": "^0.12.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "body-parser": "^1.20.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.20.1",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-plugin-istanbul": "^6.1.1",
+    "nodemon": "^2.0.16"
+  }
+}
